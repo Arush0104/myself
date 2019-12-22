@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+body{
+  overflow-x: hidden;
+  font-family: 'Ubuntu', sans-serif;
+  color: goldenrod;
+
+}
+#about-me{
+ margin-top: 1rem;
+}
+.main{
+  padding: 5vw;
+}
+
+
+.heading{
+  margin: 0;
+
+  padding-bottom: 15px;
+  font-size: 6vw;
+}
+.para{
+  margin: 0;
+  padding: 0;
+  font-size: 3vw;
+}
+
+.logomain{
+  color: burlywood;
+}
+.navbar{
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background: rgba(0, 0, 0, 0.6);
+}
+.navbar-brand h1{
+  height: 2rem;
+}
+.navbar-nav li{
+  padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+  padding-top: .8rem;
+}
+/*===fj==*/
+
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: gold;
+}
+.logoagain{
+  font-size: 50px;
+}
+/*===jfk==*/
+
+.home-inner{
+  background-image:url(img/main.jpg);
+}
+
+
+.caption{
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: aliceblue;
+}
+
+.caption h1{
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+}
+
+.caption h3{
+  font-style: 2rem;
+  padding-bottom: 1.6rem;
+  text-shadow: .1rem .1rem .5rem black;
+}
+.btn-lg{
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.3rem;
+  font-size: 1.1rem;
+  
+}
+
+#contact-me{
+  
+  color: white;
+  padding: 2rem 0.2rem;
+  margin-top: 1rem;
+
+}
+
+#contact-me a{
+color: white;
+}
+
+#contact-me p{
+  font-size: 20px;
+  color: goldenrod;
+}
+#contact-me svg.svg-inline--fa{
+  font-size: 1.6rem;
+  margin: 1.2rem .5rem 0 0;
+}
+#contact-me svg.svg-inline--fa:hover{
+color:gold;
+}
+hr.socket{
+  width:100%;
+  border-top: .2rem solid #666b71;
+  margin-top: 3rem;
+}
+
+@media(max-width: 767px){
+
+}
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
+
